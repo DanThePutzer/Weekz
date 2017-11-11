@@ -1,7 +1,7 @@
 
 function loadAndAddTasks(week) {
-  for (var i = 0; i < 6; i++) {
-    var id = "date" + (i + 1);
+  for (var i = 0; i < 7; i++) {
+    var id = "date" + i;
     var dateId = document.getElementById(id);
     dateId.innerText = week.getDayAsString(i);
   }

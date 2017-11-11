@@ -3,7 +3,7 @@
 var sunOpen = document.getElementById('openSunday');
 var sunClose = document.getElementById('closeSunday');
 var sunDiv = document.getElementById('sunDiv');
-var sunDate = document.getElementById('date0');
+var sunDate = document.getElementById('date6');
 var sunAdd = document.getElementById('sunAdd');
 
 function openSunday() {

@@ -920,7 +920,7 @@ button#moveSat:hover {color: #662D90}
   right: 0;
   background: #F1F1F1;
   transition: 0.5s;
-  z-index: 10000;
+  z-index: 200;
 }
 
 div.sunday h1 {

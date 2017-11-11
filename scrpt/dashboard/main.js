@@ -55,6 +55,7 @@ var wedColor = "#F6921E";
 var thuColor = "#7AC843";
 var friColor = "#3FA8F4";
 var satColor = "#662D90";
+var sunColor = "#444000";
 
 // Get Lists
 var monList = document.getElementById('monList');
@@ -63,6 +64,7 @@ var wedList = document.getElementById('wedList');
 var thuList = document.getElementById('thuList');
 var friList = document.getElementById('friList');
 var satList = document.getElementById('satList');
+var sunList = document.getElementById('sunList');
 
 Element.prototype.documentOffsetTop = function () {
     return this.offsetTop + ( this.offsetParent ? this.offsetParent.documentOffsetTop() : 0 );

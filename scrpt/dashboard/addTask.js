@@ -23,6 +23,9 @@ function addButtonClicked()
     case "satAdd":
       showAddMenu(satList, satColor, "Saturday");
       break;
+    case "sunAdd":
+      showAddMenu(sunList, sunColor, "Sunday");
+      break;
   }
 }
 
