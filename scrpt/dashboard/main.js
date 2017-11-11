@@ -55,7 +55,7 @@ var wedColor = "#F6921E";
 var thuColor = "#7AC843";
 var friColor = "#3FA8F4";
 var satColor = "#662D90";
-var sunColor = "#444000";
+var sunColor = "#444444";
 
 // Get Lists
 var monList = document.getElementById('monList');

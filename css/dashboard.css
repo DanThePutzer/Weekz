@@ -1226,6 +1226,7 @@ div.bubbleBack {
     box-shadow: 0px 0px 5px #D1D2D4;
     margin: auto;
     margin-top: 20px;
+    overflow: visible;
   }
 
   div.day:last-of-type {margin-bottom: 50px;}
@@ -1502,6 +1503,72 @@ div.bubbleBack {
   button#moveLast {
     margin-left: 0px;
     border-right: 1px dashed black;
+  }
+
+  /* ----- Sunday - Hustle Mode -----*/
+
+  .sunday {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    bottom: auto;
+    margin-top: 340px;
+    margin-bottom: 40px;
+    right: 0;
+    background: #FFF;
+    transition: 0.5s;
+    z-index: 200;
+  }
+
+  div.sunday h1 {
+    margin: 20px 0px 0px 30px;
+    color: #444 !important;
+    cursor: pointer;
+  }
+
+  div.sunday h2 {
+    top: 30px;
+    display: block;
+  }
+
+  div.sunday button#sunAdd {
+    position: absolute;
+    display: block;
+    top: auto;
+    bottom: 0px;
+    background: #444;
+    transition: 0.5s ease-in-out;
+  }
+
+  div.sunday button#closeSunday {
+    position: absolute;
+    display: none;
+    width: 55px;
+    height: 55px;
+    bottom: 0;
+    right: 0;
+    border: none;
+    background: none;
+    outline: none;
+  }
+
+  div.sunday:hover button#sunAdd {
+    display: block;
+    opacity: 1;
+  }
+
+  button#closeSunday img {
+    position: relative;
+    display: block;
+    width: 60%;
+    height: 60%;
+    top: 15%;
+    left: 15%;
+  }
+
+  div.sunday#sunDiv:hover button#sunAdd {
+    display: none;
   }
 
 /* ----- Task Detail View -----*/
