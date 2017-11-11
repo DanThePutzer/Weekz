@@ -918,7 +918,7 @@ button#moveSat:hover {color: #662D90}
   width: 55px;
   bottom: 0;
   right: 0;
-  background: #F1F1F1;
+  background: #F9F9F9;
   transition: 0.5s;
   z-index: 200;
 }
@@ -1542,7 +1542,7 @@ div.bubbleBack {
   }
 
   div.sunday button#closeSunday {
-    position: absolute;
+    position: relative;
     display: none;
     width: 55px;
     height: 55px;
@@ -1568,7 +1568,7 @@ div.bubbleBack {
   }
 
   div.sunday#sunDiv:hover button#sunAdd {
-    display: none;
+    display: block;
   }
 
 /* ----- Task Detail View -----*/
